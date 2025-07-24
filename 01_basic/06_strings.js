@@ -12,7 +12,7 @@ let emailId=new String("auradesakshi21@gmail.com");
 
 console.log(emailId[4]);
 
-// introduce different prototype (function)
+//Prototype is an object from which other objects inherit properties and methods in JavaScript.
 
 console.log(emailId.__proto__);
 
