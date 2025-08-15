@@ -14,3 +14,16 @@ if(true){ // this is block scope
 // console.log(c); //coz of var op: 400
 console.log("External",z);
 
+//***************** Nested function ********************/
+
+function one(){
+    const name="Sakshi"
+
+    function two(){
+        const platform="youtube"
+        console.log("parent Funtion:",name);
+    }
+    two()
+    // console.log("child function",platform);//error
+}
+one()
