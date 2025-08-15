@@ -1,0 +1,37 @@
+//IIFE (Immediately Invoked Function Expression)
+
+/*An IIFE is a function in JavaScript that:
+    => Is defined and
+    => Runs immediately after it’s created.*/
+
+//why we use ?:
+
+/*1️⃣ “Avoid polluting the global scope”
+
+    In JavaScript, if you declare variables in the global scope (outside of any function), they’re accessible everywhere in your program.
+    If too many global variables exist, it’s called pollution 
+    Problem:
+    Variables from different scripts can accidentally have the same name and overwrite each other.Harder to debug.*/
+
+/*2️⃣ “Execute code once without leaving behind variables in memory”
+
+    Sometimes you just need to run setup code once — like initializing settings, creating a connection, or doing a quick calculation.
+    After running, you don’t need the variables anymore.
+    An IIFE creates those variables in its own private scope and throws them away when it’s done. */
+
+ //method1
+ 
+(function iife1(){
+    console.log("hey");    
+ })();
+
+ //method 2
+
+ (()=>{console.log("hey babe"); } )();
+
+
+ //method 3 passing parameters
+
+ ((name)=>{
+    console.log("heyyy",name);
+ })("sakshi")
