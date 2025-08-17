@@ -11,10 +11,10 @@
 
 
 let value1;
-
-
 // value1 = 5 ?? 10; // 5(first value )
+
 // value1 = null ?? 10; // 10
+
 // value1 = undefined ?? 20; // 20
 
 value1 = null ?? 10 ?? 30// 10 (first value )
