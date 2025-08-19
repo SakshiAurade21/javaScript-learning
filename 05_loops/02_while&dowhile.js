@@ -70,3 +70,23 @@ while (index2<=5) {
     index2++;
 }
 console.log(result);
+//==================================================
+/* 💡 Key Difference:
+        while loop → checks condition before running.
+        do..while loop → runs at least once, then checks condition.*/
+
+//======================= DO WHILE =========================
+
+// Real world Example: ATM Pin Verification
+    // Imagine you’re at an ATM machine:
+        // The machine must ask you to enter your PIN at least once.
+        // After that, it keeps asking only if your PIN is wrong.
+
+let n = 5;
+
+do {
+  console.log("This will run ONCE even if condition is false!");
+  num++;
+} while (n < 5);//Even though num < 5 is false, it still prints once.
+
+
