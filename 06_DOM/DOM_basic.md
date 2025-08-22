@@ -65,11 +65,11 @@ We use the DOM to make web pages:
 
 ## 🌍 Real World Example: 
 
-*Think of a shopping website:
+* Think of a shopping website:
 
-*When you click "Add to Cart", the cart count increases without reloading the page → DOM is handling this.
+* When you click "Add to Cart", the cart count increases without reloading the page → DOM is handling this.
 
-*When you type in a search bar, suggestions appear immediately → DOM again.
+* When you type in a search bar, suggestions appear immediately → DOM again.
 ---
 
 ## 📌 Summary
