@@ -1,8 +1,5 @@
-Here’s a simple **README.md** you can use for learning or projects. I added the real-world example (login form validation + dynamic greeting).
 
----
-
-# Understanding the DOM: A Beginner’s Guide
+# Understanding the DOM: 
 
 The **DOM (Document Object Model)** is one of the most important concepts in web development. It acts as a bridge between **HTML (structure)**, **CSS (style)**, and **JavaScript (behavior)**.
 
